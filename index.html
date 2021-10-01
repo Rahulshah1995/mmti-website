@@ -4,13 +4,68 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
-    <title>MMTI</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <title>MMTI WEBSITE</title>
   </head>
-  <body data-spy="scroll" data-target="#navbar">
+  <body data-spy="scroll" data-target="#navbar" class="p-3 mb-2 bg-light text-dark">
+  
+    
+
+    
+    <style>
+      .dropdown:hover>.dropdown-menu{
+       display:block;
+                    }
+    </style>
+    
+      
+      <nav class="navbar navbar-expand-md navbar-white bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">WELCOME</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="notices.html">News and Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mission.html">Mission and Vision</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="completedprojects.html">Completed Projects </a></li>
+                <li><a class="dropdown-item" href="ongoingprojects.html">On-Going Projects</a></li>
+                <li><a class="dropdown-item" href="upcomingprojects.html">Up-Coming Projects</a></li>
+              </ul>
+              
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      
+      </nav>
+    </div>
 
 
     <!--  header -->
@@ -30,8 +85,8 @@
                             <div span>Telephone:055-565416 Mobile:9855040816</span></div>
                     </div>
                     
-                      <div class="column_attr clearfix">
-                          <img src="images/nepalflag.gif" width="90" align="right" class="flagn">
+                      <div class="col-sm-2 logo-holder"> 
+                          <img src="images/nepalflag.gif" width="180" align="right" class="flagn">
                       </div>
                   
                 </div>
@@ -39,96 +94,101 @@
         </div>
         </div>
 </header>
-<div><nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">WELCOME</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-       
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">News and Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mission and Vision</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Projects
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Completed Projects </a></li>
-            <li><a class="dropdown-item" href="#">On-Going Projects</a></li>
-            <li><a class="dropdown-item" href="#">Up-Coming Projects</a></li>
-          </ul>
-        </li>
-      </ul>
+
+     
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/motor.JPG" class="d-block w-80 img-fluid mx-auto" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>MOTORCYCLE MECHANIC</h5>
+        <p>TRAINEE IN MOTORCYCLE GARAGE.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/tailor.jpg" class="d-block w-90 img-fluid mx-auto" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>TAILORING</h5>
+        <p>EMPLOYMENT IN TAILORING.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/mass.jpg" class="d-block w-90 img-fluid mx-auto" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>DRESS MAKER</h5>
+        <p>TRAINING FOR DRESS MAKER.</p>
+      </div>
     </div>
   </div>
-</nav></div>
-     
-				           
-                    
-                   
-       
-
-                    
-    <div class="container">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="images/MOTOR.JPG" class="d-block w-100" alt="MOTOR">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>MOTORCYCLE SERVICE MECHANIC</h5>
-                  <p>EMPLOYMENT IN MOTORCYCLE GARAGE.</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="images/TAILORING.jpg" class="d-block w-100" alt="TAILORING">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>DRESS MAKER</h5>
-                  <p>EMPLOYMENT IN DRESS MAKER.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/Mason.jpg" class="d-block w-100" alt="MASON">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>MASON</h5>
-                  <p>EMPLOYMENT IN MASON.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     
     
 
-    <div class="container">MEGHA MULTIPURPOSE TRAINING INSTITUTE PVT LTD IS A TRAINING INSTITUTE 
-    WHICH IS CTEVT AFFILIATED. THIS ORGANISATION PROVIDES TRAINING WITH SNACKS TO FREE OF COST.
+    <div class="container"><div><span><b>WELCOME TO मेघा मल्टिपर्पोज ट्रेनिङ ईनिटच्यूट प्रा. लि.</b></span></div>
+    <p> Megha Multipurpose Training Institute Pvt. Ltd. is a
+      Vocational Training Institute situated in Garuda, Bairiya-9
+      Rautahat and register under Company registration act and
+      also under Cottage and Small Industry Office, Rautahat.
+      MMPTI is also registered under VAT in Internal Land
+      Revenue Office, Simara. MMPTI providing training in diverse
+      trades since last nine years in different parts of Nepal.
+      MMPTI is well equipped with training facilities, logistics,
+      equipment, training materials and bigger pool of trainers. It
+      has good track record of experience in providing trainings in
+      diverse trades, provides better employment linkage with
+      INGOs, NGOs, Consulting Firms, Contractor Firms,
+      Industries, Business Group and Overseas Employment
+      Companies. MMPTI has been affiliated to CTEVT as well.
+    </p>
+      
+      <div><b>Mission and Visions</b><p>Vision To develop skilled workforce who can contribute in nation development
+        To enhance level of income and improve life style poor, disadvantage groups, marginalized groups, dalit indigenous
+        conflict effected unemployed youth and a person who dont get a school level education
+        </p></div>
+        <div><b>Objectives</b><p>
+          <li>To conduct various types of vocational and technical trainings and to produce capable manpower</li>
+          <li>To conduct research, study, survey, monitoring and evaluation of various sector (agriculture entrepreneurship
+            education, health, livelihood etc)</li>
+          <li>To organize conference, seminar, interaction, orientation of various subject.</li>
+          <li>To Plan and design training in various trades</li>
+          <li>To conduct social well fare works</li>
+          <li>To Conduct training need assessment and Conduct rapid market assessment (RMA
+          <li>Linkage with Technical job provider</li>
+          <li>Design and Develop training curriculum</li>
+          </p></div>
+          <div><b>Working trades</b><p>
+            <li>Training in Diverse Trade</li>
+            <li>Agro based trainings</li>
+            <li>Income Generation Training</li>
+            <li>Electronics and Mechanical based trainings</li>
+            <li>Income Generation and Livelihood Promotion</li>
+            <li>Construction based trainings</li>
+            <li>Graduate Group Mobilization</li>
+            <li>Garments and cook based trainings</li>
+            <li>Enterprise Development trainings and counseling</li>
+            <li>Community Livestock Assistant (CLA)</li>
+            <li>Linkage the graduate groups to income generation activities Bamboo Handicraft Making</li>
+            <li>Linkage the graduate groups to employment agencies</li>
+            <li>Beautician</li>
+            <li>Capacity Building</li>
+            <li>Candle and essence stick making</li>
+            <li>Value Chain Development of Business</li>
+            <li>Basic Computer Training</li>
+            </p></div>
+      
     </div>
     <!--LAST FOOTER SECTION-->
     <footer class="site-footer">
@@ -172,5 +232,9 @@
   </div>
       
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
   </body>
 </html>
