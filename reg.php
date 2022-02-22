@@ -9,6 +9,7 @@ if(1$DBConn)
 }
 $name = $_REQUEST['name'];
 $email = $_REQUEST['email'];
+$address = $_REQUEST['address'];
 $phone = $_REQUEST['phone'];
 $message = $_REQUEST['message'];
 
