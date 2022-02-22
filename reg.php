@@ -13,7 +13,7 @@ $address = $_REQUEST['address'];
 $phone = $_REQUEST['phone'];
 $message = $_REQUEST['message'];
 
-$Save_RegistrationSQL = "INSERT INTO registration(name,email,phone,message)" VALUES('".addslashes($name)."','".addslashes($email)."','".addslashes($phone)."','".addslashes($message)."')";
+$Save_RegistrationSQL = "INSERT INTO registration(name,email,address,phone,message)" VALUES('".addslashes($name)."','".addslashes($email)."','".addslashes($address)."','".addslashes($phone)."','".addslashes($message)."')";
 $DBConn->query(Save_RegistrationSQL);
 header("Location:index.html?r=1");
 ?>
